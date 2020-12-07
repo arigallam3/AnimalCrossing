@@ -1,0 +1,9 @@
+﻿.page-container {
+    margin: 0 auto;
+    padding: 0 70px 0 70px;
+    background-color: #C7F2FB;
+}
+
+Container {
+    height: 100%;
+}

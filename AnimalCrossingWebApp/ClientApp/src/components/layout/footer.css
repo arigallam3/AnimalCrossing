@@ -1,0 +1,21 @@
+﻿footer {
+    background-color: white;
+    bottom: 0;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 0em;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.left-col {
+    padding-top: 35px;
+    font-size: 15px;
+}
+
+.right-col {
+    display: inline-block;
+    padding-top: 35px;
+    font-size: 15px;
+}

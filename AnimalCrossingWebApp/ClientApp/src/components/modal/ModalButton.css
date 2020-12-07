@@ -1,0 +1,61 @@
+﻿Button {
+    margin: 10px 0 10px;
+}
+
+.colormodal {
+    background-color: #A07E33;
+    border: none;
+}
+
+
+
+.modal {
+    border: 1px solid;
+    border-radius: .3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #faebf7;
+}
+
+.modal-dialog {
+    max-width: 60%;
+}
+
+.bottom-close {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #9D2F11;
+    color: white;
+    border: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.top-close {
+    font-size: large;
+    cursor: pointer;
+    width: 7%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    user-select: none;
+    background-color: #faebf7;
+    color: slategray;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
